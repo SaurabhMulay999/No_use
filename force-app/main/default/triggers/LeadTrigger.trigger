@@ -1,0 +1,1 @@
+trigger LeadTrigger on Lead (Before Insert) {               if(Trigger.isInsert && Trigger.isBefore){                                    leadTriggerHandler.beforeInsert();                }    }

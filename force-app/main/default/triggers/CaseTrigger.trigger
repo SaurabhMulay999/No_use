@@ -1,0 +1,1 @@
+trigger CaseTrigger on Case (After Insert) {          if(Trigger.isInsert && Trigger.isAfter){                           CaseTriggerHandler.afterInsert();               }   }
